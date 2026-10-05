@@ -26,20 +26,20 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+-- the game tries to guide the user with guessing a random number picked by the game.
 - [ ] Detail which bugs you found.
+-- I found that the game failed to notice whether the input was actually higher or lower than the number the game picked, giving wrong hints to the user.
 - [ ] Explain what fixes you applied.
+-- users are receiving correct hints, so the game is now more fair. The user can actually starts a new game with fresh attempts, after either losing, winning, or simply starting a new game. 
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
-
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
-
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+1. User enters a guess of 38
+2. Game returns "Too Low"
+3. User enters a guess of 70, and the game shows "Too High"
+4. Users have a few attempts left before the game ends
+5. If the user guess the number before the last attempt, the user wins and game ends
+6. If not, the user has to start a new game
 
 ## 🧪 Test Results
 
